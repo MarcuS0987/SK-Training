@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  margin-top: 100px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: #eeeeee;
+}
+
+li {
+  margin: 10px;
+  list-style: none;
+}
+
+a {
+  font-size: 1.5rem;
+}
+
+i {
+  color: gray;
+  transition: 0.5s;
+}
+
+#fb:hover {
+  color: #1877f2;
+  transform: scale(1.5);
+}
+
+#ytb:hover {
+  color: #FF0000;
+  transform: scale(1.5);
+}
+
+#insta:hover {
+  color: #8a3ab9;
+  transform: scale(1.5);
+}
+
+#git:hover {
+  color: black;
+  transform: scale(1.5);
+}
+
+#pint:hover {
+  color: #BD081C;
+  transform: scale(1.5);
+}
