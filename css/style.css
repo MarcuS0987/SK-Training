@@ -1,0 +1,94 @@
+div{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  border: 5px solid #ccc;
+}
+
+.shadow{
+  border-radius: 10px;
+  box-shadow: 0 0 0 10px red, 0 0 0 20px yellow;
+}
+
+.text{
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 5px 5px 5px silver;
+}
+
+.gradient{
+  background-image: linear-gradient(to top right, red, silver, yellow);
+  transform-origin: top center;
+  transform: rotate(45deg);
+}
+
+.box{
+  transform: translate(100px, 100px) rotate(45deg) scale(1, 1) skew(30deg);
+}
+
+.rectangle{
+  position: relative;
+  width: 200px;
+  height: 100px;
+  border: 2px solid blue;
+  box-shadow: 0 0 5 5px gray;
+  background-image: linear-gradient(to top right, yellow, blue);
+  transform-origin: top center;
+  transform: rotate(-45deg);
+}
+
+.anime{
+  transition: width 2s;
+}
+
+.anime:hover{
+  width: 400px;
+}
+
+@keyframes col{
+  from{
+    background: red;
+  }
+  to{
+    background: greenyellow;
+  }
+}
+
+@keyframes col2{
+  0%{
+    background: red;
+  }
+  25%{
+    background: rgb(255, 145, 0);
+  }
+  50%{
+    background: rgb(255, 238, 0);
+  }
+  75%{
+    background: rgb(255, 145, 0);
+  }
+  100%{
+    background: rgb(255, 53, 53));
+  }
+}
+
+.animation{
+  animation-name: col2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+button{
+  width: 150px;
+  font-size: 1.1rem;
+  line-height: 2;
+  border-radius: 10px;
+  border: none;
+}
+
+img{
+  width: 300px;
+  filter: saturate(120%);
+  margin: 10px;
+}
