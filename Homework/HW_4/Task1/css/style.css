@@ -1,0 +1,18 @@
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+p::before{
+  font-family: 'Lato', sans-serif;
+  content: " Lorem ";
+  font-size: 1.5em;
+  color: red;
+}
+
+p::after{
+  font-family: 'Lato', sans-serif;
+  content: " Lorem ";
+  font-size: 1.5em;
+  color: red;
+}
