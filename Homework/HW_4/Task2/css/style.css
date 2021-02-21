@@ -5,9 +5,6 @@
 li{
   list-style: square;
 }
-ul::first-line{
-  /* color: crimson; */
-}
 
 li:first-child{
   color: crimson;
