@@ -1,0 +1,19 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+li{
+  list-style: square;
+}
+ul::first-line{
+  color: crimson;
+  font-weight: 500;
+}
+
+li:first-child{
+  color: crimson;
+}
+li:last-child{
+  color: green;
+  font-style: italic;
+}
