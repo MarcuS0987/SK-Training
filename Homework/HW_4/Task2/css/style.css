@@ -6,12 +6,12 @@ li{
   list-style: square;
 }
 ul::first-line{
-  color: crimson;
-  font-weight: 500;
+  /* color: crimson; */
 }
 
 li:first-child{
   color: crimson;
+  font-weight: 500;
 }
 li:last-child{
   color: green;
