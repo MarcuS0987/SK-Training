@@ -1,0 +1,32 @@
+
+*{
+  box-sizing: border-box;
+  font-family: 'Arial', Arial, Helvetica, sans-serif;
+}
+
+div{
+  /* width: 600px; */
+}
+
+ul{
+  list-style: none;
+  width: 600px;
+  padding: 0;
+}
+
+li:nth-child(3){
+  background-color: #CCFFAA;
+}
+li:last-child {
+  background-color: #CCFFAA;
+}
+
+li{
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #CBCBCB;
+  text-align: center;
+  background-color: #EEEEEE;
+}
