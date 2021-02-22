@@ -1,0 +1,49 @@
+div{
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin: 20px;
+}
+
+.red1{
+  border: 40px solid transparent;
+  border-top: 0 solid transparent;
+  border-bottom: 70px solid red;
+}
+.red2{
+  border: 40px solid transparent; 
+  border-top: 70px solid red;
+  border-bottom: 0 solid transparent;
+}
+.green1{
+  border: 40px solid transparent;
+  border-right: 0 solid transparent;
+  border-left: 80px solid rgb(121,201,0);
+}
+.green2{
+  border: 40px solid transparent;
+  border-left: 0 solid transparent;
+  border-right: 80px solid rgb(121,201,0);
+}
+
+.yellow1{
+  border: 40px solid transparent;
+  border-bottom: 40px solid yellow;
+  border-left: 40px solid yellow;
+}
+.yellow2{
+  border: 40px solid transparent;
+  border-right: 40px solid yellow;
+  border-bottom: 40px solid yellow;
+}
+
+.blue1{
+  border: 40px solid transparent;
+  border-top: 40px solid blue;
+  border-left: 40px solid blue;
+}
+.blue2{
+  border: 40px solid transparent;
+  border-top: 40px solid blue;
+  border-right: 40px solid blue;
+}
